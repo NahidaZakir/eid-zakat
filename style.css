@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 0;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.display-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.banner-content {
+    height: 320px;
+    margin-left: 60px;
+}
+
+.banner {
+    background-image: linear-gradient(90deg, rgba(26, 26, 26, 1), rgba(26, 26, 26, 0)), url(images/Rectangle\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    margin-bottom: 100px;
+    width: 100%;
+
+}
+
+.banner h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 55px;
+    font-family: 'Inter', sans-serif;
+    width: 526px;
+    height: 150px;
+    line-height: 75px;
+    margin-top: 100px;
+}
+
+.banner p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    width: 480px;
+    height: 84px;
+    line-height: 28px;
+    margin-bottom: 100px;
+}
+
+.red-button {
+    width: 160px;
+    height: 59px;
+    padding: 16px 12px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #EF233C;
+    border: none;
+    border-radius: 6px;
+    color: white;
+}
+
+.lives-plus-video {
+    margin: 0px 40px;
+}
+
+
+.lives-one-content {
+    text-align: left;
+    width: 493px;
+    height: 374px;
+    background-color: yellow;
+}
+
+.lives-one-content h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    width: 492px;
+    height: 108px;
+}
+
+.lives-one-content p {
+    width: 482px;
+    height: 140px;
+    color: #707070;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+
+.video {}
